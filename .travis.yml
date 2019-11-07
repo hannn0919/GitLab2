@@ -29,5 +29,5 @@ deploy:
     secure: $HEROKU_API_KEY
   app: test-my-travisci-project
   on:
-    repo: jimting/GitProjectTutorialExample
+    repo: hannn0919/GitLab2
     
