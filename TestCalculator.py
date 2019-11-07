@@ -2,7 +2,7 @@ import unittest
 import Calculator as cal
 class TestCalculator(unittest.TestCase):
     def test_int_add(self):
-        self.assertEqual(cal.add(10, 3), 13)
+        self.assertEqual(cal.add(9, 3), 12)
 
     def test_int2_add(self):
         self.assertEqual(cal.add(9, 6), 15)
@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(cal.divided(9, 0), "b為0，無限~~")
 
     def test_float_divided(self):
-        self.assertEqual(cal.divided(6.3, 3), 2.1)
+        self.assertEqual(cal.divided(5.4, 3), 1.8)
 
 if __name__ == '__main__':
     unittest.main()
