@@ -1,7 +1,3 @@
-#master
-
-#示範Git用的程式碼！
-
 def add(a, b):
     return a + b
 
@@ -14,4 +10,4 @@ def times(a, b):
 def divided(a, b):
     if b != 0:
         return a / b
-    return "無限"
+    return "b為0，無限~~"
