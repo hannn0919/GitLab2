@@ -18,7 +18,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(cal.minus(9, 8), 1)
 
     def test_float_minus(self):
-        self.assertEqual(cal.minus(4.5, 3.2), 1.3)
+        self.assertEqual(cal.minus(4.2, 3.2), 1.0)
 
 
     def test_int_times(self):
