@@ -8,7 +8,8 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.add(9, 6), 15)
 
     def test_float_add(self):
-        self.assertEqual(calculator.add(4.2, 3), 7.2)
+        self.assertEqual(calculator.add(4.2, 5), 9.2)
+
 
     def test_int_minus(self):
         self.assertEqual(calculator.minus(9, 1), 8)
@@ -19,14 +20,16 @@ class TestCalculator(unittest.TestCase):
     def test_float_minus(self):
         self.assertEqual(calculator.minus(4.5, 3.2), 1.3)
 
+
     def test_int_times(self):
-        self.assertEqual(calculator.times(9, 3), 27)
+        self.assertEqual(calculator.times(8, 3), 24)
 
     def test_int2_times(self):
         self.assertEqual(calculator.times(10, 4), 40)
 
     def test_float_times(self):
         self.assertEqual(calculator.times(4.2, 3.3), 13.86)
+
 
     def test_int_divided(self):
         self.assertEqual(calculator.divided(9, 3), 3)
