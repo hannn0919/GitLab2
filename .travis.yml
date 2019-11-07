@@ -30,4 +30,3 @@ deploy:
   app: test-my-travisci-project
   on:
     repo: hannn0919/GitLab2
-    
